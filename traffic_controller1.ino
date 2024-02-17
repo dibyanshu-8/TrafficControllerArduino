@@ -10,9 +10,9 @@ void setup(){
   
 }
 void loop(){
-digitalWrite(red, HIGH);
- delay(15000);
-digitalWrite(red,  LOW);
+digitalWrite(red, HIGH); //Turns on the red LED by setting pin 9 to HIGH (5 volts).
+ delay(15000); // Waits for 15 seconds using the delay() function.
+digitalWrite(red,  LOW); 
   
   digitalWrite(yellow, HIGH);
 delay(1000);
