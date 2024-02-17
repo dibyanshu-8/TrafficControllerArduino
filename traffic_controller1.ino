@@ -4,7 +4,7 @@ int green = 7;
 
 void setup(){
   
-  pinMode(red, OUTPUT);
+  pinMode(red, OUTPUT); //This line configures digital pin 9 (red) as an output pin, meaning it can send voltage (HIGH) or no voltage (LOW) to control the LED's on/off state.
   pinMode(yellow, OUTPUT);
   pinMode(green,  OUTPUT);
   
