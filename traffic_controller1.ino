@@ -1,4 +1,4 @@
-int red = 9;
+int red = 9; //constant variable named red and assigns it the value 9, indicating that digital pin 9 on the Arduino board will be used to control the red LED.
 int yellow = 8;
 int green = 7;
 
